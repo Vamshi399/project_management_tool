@@ -1,0 +1,232 @@
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+button {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background: #603bbb;
+  cursor: pointer;
+}
+
+.login {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 20px;
+  background: #e9e9e9;
+  display: flex;
+}
+
+.login .loginContainer {
+  padding: 60px;
+  margin: auto;
+  width: 100%;
+  max-width: 520px;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+  box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+}
+
+.login .loginContainer label {
+  color: white;
+  margin: 14px 0;
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.login .loginContainer input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 19px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.login .loginContainer .btnContainer {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.login .loginContainer .btnContainer p {
+  margin: 14px 0 0 0;
+  text-align: right;
+  color: #fff;
+}
+
+.login .loginContainer .btnContainer p span {
+  color: yellow;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.login .loginContainer .btnContainer p span:hover {
+  color: red;
+}
+
+.login .loginContainer .errorMsg {
+  color: red;
+  font-size: 16px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at left bottom,
+    rgba(22, 24, 47, 1) 0%,
+    rgba(38, 20, 72, 0.9) 59%,
+    rgba(17, 27, 75, 0.9) 100%
+  );
+}
+
+.hero nav {
+  background: #603bbb;
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero nav h2 {
+  color: #fff;
+}
+
+.hero nav button {
+  width: 86px;
+  padding: 8px 0;
+  background: #3a2b58;
+} */
+.App {
+  text-align: center;
+   
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.unameText{
+  color: white;
+  right:30px;
+  top:110px;
+  font-size: 25px;
+  position: absolute;
+  font-family: 'Times New Roman', Times, serif;
+}
+.footer1{
+  position:fixed;
+  color:white;
+  background-color: #83aafa75;
+  font-weight: 600;
+left:60px;
+bottom:0;
+right:0;
+width:100%;
+  height:60px;   /* Height of the footer */
+  /* background : linear-gradient(to bottom right,  #03045e,#3ABEFF); */
+   /* min-width:1600px; */
+  
+}
+.footer1 a{
+  color: white;
+}
+/* .react-chatbot-kit-chat-header{
+  content: "Vamshi" !important;
+}
+
+.react-chatbot-kit-chat-header::after{
+  content: "Vamshi" !important;
+} */
+
+.react-chatbot-kit-chat-header {
+  /* position: absolute; */
+  visibility: hidden;
+  background-color: navy;
+ 
+}
+
+.react-chatbot-kit-chat-header::before {
+  content: "AdminBot";
+  visibility: visible;
+  
+}
+.bot{
+  height: 500px;
+  align-self: end;
+  padding-top: 10%;
+  padding-left: 60%;
+  padding-bottom: 100%;
+}
+.react-chatbot-kit-chat-inner-container{
+  background:linear-gradient(to bottom right, #3ABEFF, #242699);
+}
+.react-chatbot-kit-chat-bot-message{
+  background:linear-gradient(to bottom right, #242699, #03045e);
+}
+.react-chatbot-kit-chat-bot-message-arrow{
+  border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #242699;
+}
+.react-chatbot-kit-chat-btn-send button {
+  background-color:#242699;
+}
+#login-tab-login{
+  margin-left: 150px;
+}

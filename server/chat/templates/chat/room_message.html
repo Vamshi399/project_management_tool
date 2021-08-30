@@ -1,0 +1,29 @@
+<div class="room-container__msg">
+        <!-- msg chat header -->
+        <div class="msg-header mat-elevation-z6">
+            <div class="h-avatar"><img src="/media/chartgroup/{{ chatgroup.name }}.jpg"></div>
+            <div class="h-users">
+                <div class="h-user-group">{{chatgroup.name|title}}</div>
+                <div class="h-user-member">{{participants}}</div>
+            </div>
+        </div>
+        <!-- msg chat header -->
+
+        <!-- msg box  -->
+        <div class="msg-box msg-box" style="background: #efe7dd url(https://img.wallpapersafari.com/desktop/1600/900/83/5/kmV7Md.jpg) repeat;">
+            <div id="new-message-chat"></div>
+        </div>
+        <!-- msg box -->
+
+
+        <!-- msg input -->
+        <div class="msg-input" style="background: linear-gradient(to bottom right, #3ABEFF, #313392)">
+            
+            <div class="type-a-message">
+                <input id="chat-message-input" type="text" placeholder="Type a message"><br>
+            </div>
+           
+        </div>
+        <!--  msg input -->
+
+</div>

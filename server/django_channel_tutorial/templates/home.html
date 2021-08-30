@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<script> 
+  function redirectHomePage() {
+    window.open('http://localhost:3000/', '_self');
+  }
+</script>
+{% if user.is_authenticated %}
+<script>
+  redirectHomePage();
+</script>
+  Hi {{ user.username }}!
+  <p><a href="{% url 'logout' %}">Log Out</a></p>
+  <p><a href="{% url 'password_reset' %}">Reset Password</a></p>
+{% else %}
+  <p>You are not logged in</p>
+  <a href="{% url 'login' %}">Log In</a>
+{% endif %}
+{% endblock %}

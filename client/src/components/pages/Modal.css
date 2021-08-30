@@ -1,0 +1,99 @@
+.modal-wrapper {
+    background: white;
+    border: 1px solid #d0cccc;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+    margin: -400px auto 0;
+    transition: all .5s;
+    width: 42%;
+    height: 500px;
+    overflow: auto;
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/83/5/kmV7Md.jpg"); 
+  background-size: cover;
+
+}
+
+.modal-header {
+    background : linear-gradient(to bottom right,#3ABEFF, #03045e);
+     
+    height: 60px;
+    line-height: 40px;
+    padding: 3px 20px;
+    text-align: right;
+}
+
+.modal-header h4 {
+    color: white;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-left:160px;
+}
+
+.modal-body {
+    padding: 10px 0px;
+    text-align: center;
+    height:auto;
+    margin-left:100px;
+    font-weight:bold;
+    font-size:15px;
+}
+.modal-body label{
+    font-size: 14px;
+}
+
+.modal-footer {
+    background : linear-gradient(to bottom right,#3ABEFF, #03045e);
+    height: 30px;
+    padding: 15px;
+}
+
+.close-modal-btn {
+    color: white;
+    cursor: pointer;
+    float: right;
+    font-size: 30px;
+    margin: 0;
+}
+
+.close-modal-btn:hover {
+    color: black;
+}
+
+input , select{
+    border:1px solid;
+}
+
+.back-drop {
+    background-color: rgba(48, 49, 48, 0.42);
+    height: 100%;
+    position: fixed;
+    transition: all 1s;
+    width: 100%;
+}
+
+.open-modal-btn {
+    margin: 2%;
+    margin-right: 10vh;
+    padding: 2px;
+    background : linear-gradient(to bottom right, #1648a5, #04348f);
+    color: honeydew;
+    border-radius: 4px;
+    width: 20%;
+
+}
+.open-modal-btn:hover  {
+    margin: 2%;
+    margin-right: 10vh;
+    padding: 2px;
+    background : rgb(80, 93, 129);
+    color: honeydew;
+    width: 20%;
+}
+.button1{
+    border:2px solid black;
+    align-content: center;
+    
+}
+.button1:hover {
+    background-color: grey;
+}
